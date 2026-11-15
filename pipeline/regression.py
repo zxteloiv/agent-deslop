@@ -105,6 +105,8 @@ CASES = [
     {"id": "R21", "name": "执行声明与文件状态一致", "scope": "all",
      "needs": r"文件首行原本已是|未写入任何改动",
      "check": lambda a, s: not notes_changed()},
+    {"id": "R22", "name": "无三段式排比", "scope": "all", "needs": r".",
+     "check": lambda a, s: not re.search(r"可[^，。；、\n]{1,8}、可[^，。；、\n]{1,8}、可", s)},
 ]
 
 

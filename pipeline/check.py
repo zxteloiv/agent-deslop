@@ -13,6 +13,7 @@ CHECKS = {
     "口语化": re.compile(r"跑|搞|弄|整|搞定|齐了"),
     "黑话": re.compile(r"落盘"),
     "虚构沿革": re.compile(r"旧称|旧译"),
+    "三段排比": re.compile(r"可[^，。；、\n]{1,8}、可[^，。；、\n]{1,8}、可"),
     "标题": re.compile(r"^#{1,3}\s", re.MULTILINE),
     "表格行": re.compile(r"^\s*\|", re.MULTILINE),
 }
