@@ -50,3 +50,7 @@ python3 pipeline/grice.py outputs/samples/style-2.md    # 按四准则检查
 v1 调整格式条款，允许表格与小节，限制标题层级；v2 增加否定对偶、抽象大词、时代开场、排比破折、恭维开场与列表数量限制；v3 增加 Copula 替代、句尾补意义、免责套话、结构上限与市场数字来源要求。
 
 历次回放结果见 [outputs/regression-report.md](outputs/regression-report.md)，实验过程见 [docs/experiment-log.md](docs/experiment-log.md)。
+
+## License
+
+MIT，见 [LICENSE](LICENSE)。
