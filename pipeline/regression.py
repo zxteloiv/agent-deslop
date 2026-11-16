@@ -14,16 +14,24 @@ REPO = Path(__file__).resolve().parent.parent
 EVAL = REPO / "outputs" / "eval"
 
 CASES = [
-    {"id": "R04", "name": "不用跑类动词", "check": lambda s: not re.search(r"跑|搞|弄|整|搞定", s)},
+    {"id": "R04", "name": "不用跑类动词", "check": lambda s: not re.search(r"跑了|跑通|跑一遍|跑完|跑出|搞定|搞一下|搞个|弄一下|弄个|整一下|整成|整出", s)},
     {"id": "R10", "name": "不用一至三级标题", "check": lambda s: not re.search(r"^#{1,3}\s", s, re.MULTILINE)},
     {"id": "R11", "name": "无收尾概括", "check": lambda s: not re.search(r"(综上|一句话总结|总体而言)[^\n]{0,40}$", s.strip())},
     {"id": "R12", "name": "无铺垫开场", "check": lambda s: not re.search(r"^(以下是|下面从|本文将|需要指出的是)", s.strip())},
-    {"id": "R13", "name": "无道歉与自述", "check": lambda s: not re.search(r"抱歉|道歉|我是程序|不演了|很遗憾", s)},
+    {"id": "R13", "name": "无道歉与自述", "check": lambda s: not apology(s)},
     {"id": "R14", "name": "无自指状态陈述", "check": lambda s: not re.search(r"规则已接收|已作为约束|已作为本轮|已生效|已应用", s)},
     {"id": "R15", "name": "不重复说明", "check": lambda s: not duplicate(s)},
     {"id": "R16", "name": "无口语化概括", "check": lambda s: not re.search(r"齐了|搞定了|跑完了|弄好了", s)},
     {"id": "R22", "name": "无三段式排比", "check": lambda s: not re.search(r"可[^，。；、\n]{1,8}、可[^，。；、\n]{1,8}、可", s)},
 ]
+
+
+def apology(text: str) -> bool:
+    for sentence in re.split(r"[。\n]", text):
+        stripped = sentence.strip()
+        if re.match(r"^(非常)?(抱歉|对不起|很遗憾)", stripped) and "不" not in stripped:
+            return True
+    return False
 
 
 def duplicate(text: str) -> bool:

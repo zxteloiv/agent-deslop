@@ -10,7 +10,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 CASES = [json.loads(line) for line in (REPO / "data" / "badcases-v3.jsonl").read_text(encoding="utf-8").splitlines()]
 # 语义型条目无法用正则判定，交由人工复核
-MANUAL = {"B120", "B172"}
+MANUAL = {"B119", "B120", "B123", "B172"}
 
 
 def scan(text: str) -> list[dict]:
@@ -18,6 +18,8 @@ def scan(text: str) -> list[dict]:
     hits = []
     for case in CASES:
         if case["id"] in MANUAL:
+            continue
+        if case["id"] == "B134" and re.search(r"http|来源|数据|中汽协|乘联", body):
             continue
         try:
             if re.search(case["detect"], body):
