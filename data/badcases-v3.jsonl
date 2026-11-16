@@ -1,210 +1,210 @@
-{"id": "B001", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 delve 一类 AI 高频词", "grice": "方式", "detect": "\\bdelve\\b"}
-{"id": "B002", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 tapestry 一类 AI 高频词", "grice": "方式", "detect": "\\btapestry\\b"}
-{"id": "B003", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 landscape 一类 AI 高频词", "grice": "方式", "detect": "\\blandscape\\b"}
-{"id": "B004", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 nuanced 一类 AI 高频词", "grice": "方式", "detect": "\\bnuanced\\b"}
-{"id": "B005", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 multifaceted 一类 AI 高频词", "grice": "方式", "detect": "\\bmultifaceted\\b"}
-{"id": "B006", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 pivotal 一类 AI 高频词", "grice": "方式", "detect": "\\bpivotal\\b"}
-{"id": "B007", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 crucial 一类 AI 高频词", "grice": "方式", "detect": "\\bcrucial\\b"}
-{"id": "B008", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 foster 一类 AI 高频词", "grice": "方式", "detect": "\\bfoster\\b"}
-{"id": "B009", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 leverage 一类 AI 高频词", "grice": "方式", "detect": "\\bleverage\\b"}
-{"id": "B010", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 streamline 一类 AI 高频词", "grice": "方式", "detect": "\\bstreamline\\b"}
-{"id": "B011", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 paradigm 一类 AI 高频词", "grice": "方式", "detect": "\\bparadigm\\b"}
-{"id": "B012", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 holistic 一类 AI 高频词", "grice": "方式", "detect": "\\bholistic\\b"}
-{"id": "B013", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 robust 一类 AI 高频词", "grice": "方式", "detect": "\\brobust\\b"}
-{"id": "B014", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 comprehensive 一类 AI 高频词", "grice": "方式", "detect": "\\bcomprehensive\\b"}
-{"id": "B015", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 seamless 一类 AI 高频词", "grice": "方式", "detect": "\\bseamless\\b"}
-{"id": "B016", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 revolutionize 一类 AI 高频词", "grice": "方式", "detect": "\\brevolutionize\\b"}
-{"id": "B017", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 cutting-edge 一类 AI 高频词", "grice": "方式", "detect": "\\bcutting-edge\\b"}
-{"id": "B018", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 game-changer 一类 AI 高频词", "grice": "方式", "detect": "\\bgame-changer\\b"}
-{"id": "B019", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 empower 一类 AI 高频词", "grice": "方式", "detect": "\\bempower\\b"}
-{"id": "B020", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 elevate 一类 AI 高频词", "grice": "方式", "detect": "\\belevate\\b"}
-{"id": "B021", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 resonate 一类 AI 高频词", "grice": "方式", "detect": "\\bresonate\\b"}
-{"id": "B022", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 moreover 一类 AI 高频词", "grice": "方式", "detect": "\\bmoreover\\b"}
-{"id": "B023", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 furthermore 一类 AI 高频词", "grice": "方式", "detect": "\\bfurthermore\\b"}
-{"id": "B024", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 nevertheless 一类 AI 高频词", "grice": "方式", "detect": "\\bnevertheless\\b"}
-{"id": "B025", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 harnessing 一类 AI 高频词", "grice": "方式", "detect": "\\bharnessing\\b"}
-{"id": "B026", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 underscore 一类 AI 高频词", "grice": "方式", "detect": "\\bunderscore\\b"}
-{"id": "B027", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 realm 一类 AI 高频词", "grice": "方式", "detect": "\\brealm\\b"}
-{"id": "B028", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 myriad 一类 AI 高频词", "grice": "方式", "detect": "\\bmyriad\\b"}
-{"id": "B029", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 intricate 一类 AI 高频词", "grice": "方式", "detect": "\\bintricate\\b"}
-{"id": "B030", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 captivating 一类 AI 高频词", "grice": "方式", "detect": "\\bcaptivating\\b"}
-{"id": "B031", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 testament 一类 AI 高频词", "grice": "方式", "detect": "\\btestament\\b"}
-{"id": "B032", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 embark 一类 AI 高频词", "grice": "方式", "detect": "\\bembark\\b"}
-{"id": "B033", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 bespoke 一类 AI 高频词", "grice": "方式", "detect": "\\bbespoke\\b"}
-{"id": "B034", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 unwavering 一类 AI 高频词", "grice": "方式", "detect": "\\bunwavering\\b"}
-{"id": "B035", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 utilize 一类 AI 高频词", "grice": "方式", "detect": "\\butilize\\b"}
-{"id": "B036", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 showcase 一类 AI 高频词", "grice": "方式", "detect": "\\bshowcase\\b"}
-{"id": "B037", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 bolster 一类 AI 高频词", "grice": "方式", "detect": "\\bbolster\\b"}
-{"id": "B038", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 cultivate 一类 AI 高频词", "grice": "方式", "detect": "\\bcultivate\\b"}
-{"id": "B039", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 enhance 一类 AI 高频词", "grice": "方式", "detect": "\\benhance\\b"}
-{"id": "B040", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 navigate 一类 AI 高频词", "grice": "方式", "detect": "\\bnavigate\\b"}
-{"id": "B041", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 interplay 一类 AI 高频词", "grice": "方式", "detect": "\\binterplay\\b"}
-{"id": "B042", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 synergy 一类 AI 高频词", "grice": "方式", "detect": "\\bsynergy\\b"}
-{"id": "B043", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 meticulous 一类 AI 高频词", "grice": "方式", "detect": "\\bmeticulous\\b"}
-{"id": "B044", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 vibrant 一类 AI 高频词", "grice": "方式", "detect": "\\bvibrant\\b"}
-{"id": "B045", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 valuable 一类 AI 高频词", "grice": "方式", "detect": "\\bvaluable\\b"}
-{"id": "B046", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 significant 一类 AI 高频词", "grice": "方式", "detect": "\\bsignificant\\b"}
-{"id": "B047", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 garner 一类 AI 高频词", "grice": "方式", "detect": "\\bgarner\\b"}
-{"id": "B048", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 boast 一类 AI 高频词", "grice": "方式", "detect": "\\bboast\\b"}
-{"id": "B049", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 in order to 一类 AI 高频词", "grice": "方式", "detect": "\\bin order to\\b"}
-{"id": "B050", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 the fact that 一类 AI 高频词", "grice": "方式", "detect": "\\bthe fact that\\b"}
-{"id": "B051", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 In today's fast-paced world 一类套话", "grice": "方式", "detect": "In today's fast-paced world"}
-{"id": "B052", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 In the ever-evolving landscape 一类套话", "grice": "方式", "detect": "In the ever-evolving landscape"}
-{"id": "B053", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 In today's digital age 一类套话", "grice": "方式", "detect": "In today's digital age"}
-{"id": "B054", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 It's important to note that 一类套话", "grice": "方式", "detect": "It's important to note that"}
-{"id": "B055", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 It's worth noting that 一类套话", "grice": "方式", "detect": "It's worth noting that"}
-{"id": "B056", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Here's why 一类套话", "grice": "方式", "detect": "Here's why"}
-{"id": "B057", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Let's dive in 一类套话", "grice": "方式", "detect": "Let's dive in"}
-{"id": "B058", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Let's explore 一类套话", "grice": "方式", "detect": "Let's explore"}
-{"id": "B059", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 At its core 一类套话", "grice": "方式", "detect": "At its core"}
-{"id": "B060", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 In essence 一类套话", "grice": "方式", "detect": "In essence"}
-{"id": "B061", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 As we navigate the complexities 一类套话", "grice": "方式", "detect": "As we navigate the complexities"}
-{"id": "B062", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 A testament to 一类套话", "grice": "方式", "detect": "A testament to"}
-{"id": "B063", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 The power of 一类套话", "grice": "方式", "detect": "The power of"}
-{"id": "B064", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Stands as a beacon of 一类套话", "grice": "方式", "detect": "Stands as a beacon of"}
-{"id": "B065", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 In an era where 一类套话", "grice": "方式", "detect": "In an era where"}
-{"id": "B066", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Serves as a cornerstone 一类套话", "grice": "方式", "detect": "Serves as a cornerstone"}
-{"id": "B067", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Additionally,  一类套话", "grice": "方式", "detect": "Additionally,"}
-{"id": "B068", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Moreover,  一类套话", "grice": "方式", "detect": "Moreover,"}
-{"id": "B069", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Furthermore,  一类套话", "grice": "方式", "detect": "Furthermore,"}
-{"id": "B070", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 That being said 一类套话", "grice": "方式", "detect": "That being said"}
-{"id": "B071", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 In conclusion 一类套话", "grice": "量", "detect": "In conclusion"}
-{"id": "B072", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 In summary 一类套话", "grice": "量", "detect": "In summary"}
-{"id": "B073", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Overall,  一类套话", "grice": "方式", "detect": "Overall,"}
-{"id": "B074", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 To sum up 一类套话", "grice": "方式", "detect": "To sum up"}
-{"id": "B075", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 At the end of the day 一类套话", "grice": "方式", "detect": "At the end of the day"}
-{"id": "B076", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 It could be argued that 一类套话", "grice": "方式", "detect": "It could be argued that"}
-{"id": "B077", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 It seems that 一类套话", "grice": "方式", "detect": "It seems that"}
-{"id": "B078", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 One could argue 一类套话", "grice": "方式", "detect": "One could argue"}
-{"id": "B079", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Some might say 一类套话", "grice": "方式", "detect": "Some might say"}
-{"id": "B080", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Generally speaking 一类套话", "grice": "方式", "detect": "Generally speaking"}
-{"id": "B081", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「赋能」", "grice": "方式", "detect": "赋能"}
-{"id": "B082", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「抓手」", "grice": "方式", "detect": "抓手"}
-{"id": "B083", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「闭环」", "grice": "方式", "detect": "闭环"}
-{"id": "B084", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「底层逻辑」", "grice": "方式", "detect": "底层逻辑"}
-{"id": "B085", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「生态位」", "grice": "方式", "detect": "生态位"}
-{"id": "B086", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「范式转移」", "grice": "方式", "detect": "范式转移"}
-{"id": "B087", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「里程碑」", "grice": "方式", "detect": "里程碑"}
-{"id": "B088", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「全方位」", "grice": "方式", "detect": "全方位"}
-{"id": "B089", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「多维度」", "grice": "方式", "detect": "多维度"}
-{"id": "B090", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「在当今」", "grice": "方式", "detect": "在当今"}
-{"id": "B091", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「随着时代的发展」", "grice": "方式", "detect": "随着时代的发展"}
-{"id": "B092", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「未来可期」", "grice": "方式", "detect": "未来可期"}
-{"id": "B093", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「前途无量」", "grice": "方式", "detect": "前途无量"}
-{"id": "B094", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「充满希望」", "grice": "方式", "detect": "充满希望"}
-{"id": "B095", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「值得注意的是」", "grice": "方式", "detect": "值得注意的是"}
-{"id": "B096", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「由此可见」", "grice": "方式", "detect": "由此可见"}
-{"id": "B097", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「不难看出」", "grice": "方式", "detect": "不难看出"}
-{"id": "B098", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「综上所述」", "grice": "方式", "detect": "综上所述"}
-{"id": "B099", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「总而言之」", "grice": "方式", "detect": "总而言之"}
-{"id": "B100", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「总之」", "grice": "方式", "detect": "总之"}
-{"id": "B101", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「首先」", "grice": "方式", "detect": "首先"}
-{"id": "B102", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「其次」", "grice": "方式", "detect": "其次"}
-{"id": "B103", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「最后」", "grice": "方式", "detect": "最后"}
-{"id": "B104", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「与此同时」", "grice": "方式", "detect": "与此同时"}
-{"id": "B105", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「于是乎」", "grice": "方式", "detect": "于是乎"}
-{"id": "B106", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「从而」", "grice": "方式", "detect": "从而"}
-{"id": "B107", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「因而」", "grice": "方式", "detect": "因而"}
-{"id": "B108", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「诚然」", "grice": "方式", "detect": "诚然"}
-{"id": "B109", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「不仅要」", "grice": "方式", "detect": "不仅要"}
-{"id": "B110", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「更是」", "grice": "方式", "detect": "更是"}
-{"id": "B111", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「正确的废话」", "grice": "方式", "detect": "正确的废话"}
-{"id": "B112", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「既要」", "grice": "方式", "detect": "既要"}
-{"id": "B113", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「有意义」", "grice": "方式", "detect": "有意义"}
-{"id": "B114", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「价值升华」", "grice": "方式", "detect": "价值升华"}
-{"id": "B115", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Not X, but Y（否定对偶）", "grice": "方式", "detect": "不是[^，。]{1,15}，?而是|not [^.]{1,20}, but"}
-{"id": "B116", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Not just X, but Y", "grice": "方式", "detect": "不仅[^，。]{1,15}，?更是|not just [^.]{1,20}, but"}
-{"id": "B117", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Not X. Not Y. Just Z.", "grice": "方式", "detect": "不是[^。]{1,10}。不是[^。]{1,10}。"}
-{"id": "B118", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "自问自答（The X? A Y.）", "grice": "方式", "detect": "[^。？\\n]{2,12}？\\s*(答案|它|这|真相)[^。]{0,15}。"}
-{"id": "B119", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Anaphora 重复开头", "grice": "方式", "detect": "(^|\\n)([^。\\n]{2,10})[^。\\n]*。(?:\\2)"}
-{"id": "B120", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Tricolon 三连排比", "grice": "方式", "detect": "([^，。、]{1,8})、([^，。、]{1,8})、([^，。、]{1,8})"}
-{"id": "B121", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Em dash 插入语", "grice": "方式", "detect": "——[^—]{2,30}——"}
-{"id": "B122", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "短句堆叠（一句一段）", "grice": "量", "detect": "^.{1,12}。\\n.{1,12}。\\n.{1,12}。$"}
-{"id": "B123", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Gerund fragments", "grice": "方式", "detect": "(^|\\n)([^。\\n]{1,10}[。，]){3,}"}
-{"id": "B124", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Listicle in trench coat", "grice": "方式", "detect": "第一[，、].{0,40}第二[，、]"}
-{"id": "B125", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Here's the kicker", "grice": "方式", "detect": "Here's the (kicker|thing|deal)|精彩的是"}
-{"id": "B126", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Think of it as", "grice": "方式", "detect": "可以把它想象成|相当于一个|Think of it as"}
-{"id": "B127", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Imagine a world", "grice": "方式", "detect": "想象一下|Imagine a world"}
-{"id": "B128", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "False vulnerability", "grice": "方式", "detect": "坦白说|说实话|说出来可能不信|And yes"}
-{"id": "B129", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "The truth is simple", "grice": "质", "detect": "真相是|事实很简单|答案很明显"}
-{"id": "B130", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "意义膨胀", "grice": "方式", "detect": "意义深远|前所未有|里程碑式|历史性"}
-{"id": "B131", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "空洞升华", "grice": "方式", "detect": "让我们共同|携手|开启新篇章|迈向未来"}
-{"id": "B132", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "绝对化断言", "grice": "质", "detect": "必然|一定会|毫无疑问|显然|毋庸置疑"}
-{"id": "B133", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "模糊归因", "grice": "质", "detect": "专家认为|研究表明|业内普遍认为|数据显示|据统计"}
-{"id": "B134", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "无来源数字", "grice": "质", "detect": "(增长|下降|市场|规模|营收|利润|占比|渗透率)[^。]{0,12}\\d+(\\.\\d+)?\\s*(%|亿|万|倍|美元)"}
-{"id": "B135", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "防御式免责", "grice": "关系", "detect": "仅供参考|不构成建议|建议咨询专业人士|因人而异|具体情况具体分析"}
-{"id": "B136", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "假谦虚", "grice": "方式", "detect": "不是专家|个人浅见|说得不一定对|能力有限"}
-{"id": "B137", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "元评论", "grice": "关系", "detect": "本文将|下面介绍|接下来讨论|需要说明的是|值得一提的是"}
-{"id": "B138", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "重复问题", "grice": "关系", "detect": "你问的是|关于你的问题|就你提到的"}
-{"id": "B139", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "恭维开场", "grice": "关系", "detect": "好问题|问得好|这个想法很好|Great question"}
-{"id": "B140", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "过度 hedging", "grice": "方式", "detect": "(可能|也许|或许|大概|似乎).{0,20}(可能|也许|或许|大概|似乎)"}
-{"id": "B141", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "通用结论", "grice": "量", "detect": "总而言之|总的来说|综上所述|未来可期|前途无量"}
-{"id": "B142", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "每段小结", "grice": "量", "detect": "(综上|总之)[^\\n]{0,20}\\n"}
-{"id": "B143", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "三段式结构", "grice": "方式", "detect": "首先[^\\n]{0,60}\\n[^\\n]{0,80}\\n其次"}
-{"id": "B144", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "模板段落", "grice": "方式", "detect": "首先[^\\n]{0,40}。其次[^\\n]{0,40}。最后"}
-{"id": "B145", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "挑战转折公式", "grice": "方式", "detect": "尽管[^，。]{1,20}，但[^，。]{1,20}。|Despite its"}
-{"id": "B146", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Copula avoidance", "grice": "方式", "detect": "充当[^，。]{0,8}|serves as|stands as"}
-{"id": "B147", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Participle tail", "grice": "方式", "detect": "，(从而|进而|使得|确保了|体现了|彰显了)[^。]{0,20}。"}
-{"id": "B148", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "Vague connection", "grice": "质", "detect": "与[^，。]{1,10}相关联|与[^，。]{1,10}密切相关"}
-{"id": "B149", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Elegant variation", "grice": "方式", "detect": "该(工具|系统|平台|方案).{0,20}该(工具|系统|平台|方案)"}
-{"id": "B150", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Bold-first bullets", "grice": "方式", "detect": "^\\s*[-*]\\s*\\*\\*[^*]+\\*\\*[：:]"}
-{"id": "B151", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Emoji 装饰", "grice": "方式", "detect": "[\\U0001F300-\\U0001FAFF✅🚀💡👉]"}
-{"id": "B152", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Unicode 箭头", "grice": "方式", "detect": "→|⇒"}
-{"id": "B153", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "标题层级过深", "grice": "方式", "detect": "^#{5,6}\\s"}
-{"id": "B154", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "标题紧接标题", "grice": "方式", "detect": "^#{2,6}[^\\n]*\\n\\s*#{2,6}"}
-{"id": "B155", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "表格代替叙述", "grice": "量", "detect": "^\\|.*\\|$"}
-{"id": "B156", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "分隔线滥用", "grice": "方式", "detect": "^---$"}
-{"id": "B157", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "粗体滥用", "grice": "方式", "detect": "(\\*\\*[^*]+\\*\\*[^\\n]{0,40}){4,}"}
-{"id": "B158", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "代码块装饰", "grice": "量", "detect": "```"}
-{"id": "B159", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "复选框列表", "grice": "方式", "detect": "^\\s*[-*]\\s*\\[[ x]\\]"}
-{"id": "B160", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "嵌套列表过深", "grice": "方式", "detect": "^\\s{6,}[-*]"}
-{"id": "B161", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "一句一段", "grice": "方式", "detect": "^[^。\\n]{1,20}。$"}
-{"id": "B162", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "段落等长", "grice": "方式", "detect": "^[^\\n]{40,80}$"}
-{"id": "B163", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "结构预告", "grice": "关系", "detect": "(本文|下面|接下来)[^，。]{0,10}(分|从|为)[^，。]{0,10}(三|四|几)个"}
-{"id": "B164", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "结尾重申", "grice": "量", "detect": "(前面|以上)[^。]{0,20}(已经|都)[^。]{0,10}(说明|提到)"}
-{"id": "B165", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "通行话转场", "grice": "方式", "detect": "说到这里|话又说回来|不得不说"}
-{"id": "B166", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "套话问候", "grice": "关系", "detect": "希望(这些|上述|以上)[^。]{0,10}(对|有)[^。]{0,10}(帮助|用)"}
-{"id": "B167", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "客户端口吻", "grice": "关系", "detect": "如需|欢迎(随时)?(联系|告知)|我会(继续|随时)"}
-{"id": "B168", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "过度承诺", "grice": "质", "detect": "(?<!不)保证(能|会)|一定(能|会)|包(你|您)满意"}
-{"id": "B169", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "伪精确", "grice": "质", "detect": "精确到|高达\\s*\\d+|超过\\s*\\d+%"}
-{"id": "B170", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "空泛结论", "grice": "量", "detect": "总的来说[^。]{0,30}(重要|关键|必要)"}
-{"id": "B171", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "正确的废话", "grice": "量", "detect": "既要[^。]{1,20}又要[^。]{1,20}"}
-{"id": "B172", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "同义反复", "grice": "量", "detect": "([^，。]{2,6})[^。]{0,10}\\1"}
-{"id": "B173", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "形容词堆砌", "grice": "方式", "detect": "([^，。]{1,6}的){4,}"}
-{"id": "B174", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "滥用类比", "grice": "方式", "detect": "就像[^。]{1,20}一样|好比"}
-{"id": "B175", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "泛化概括", "grice": "质", "detect": "大多数|几乎所有|普遍认为"}
-{"id": "B176", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "标题层级超过两级", "grice": "方式", "detect": "^#{1,3}\\s"}
-{"id": "B177", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "小节数量过多", "grice": "量", "detect": "(^#{4,5}\\s.*\\n){6,}"}
-{"id": "B178", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "每节末尾小结", "grice": "量", "detect": "(本节|这一节)[^。]{0,10}(小结|总结)"}
-{"id": "B179", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "全文结尾总结", "grice": "量", "detect": "^(综上|总之|总的来说)"}
-{"id": "B180", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "列表条目凑数", "grice": "量", "detect": "^\\s*\\d+[.、]\\s*.{1,10}$"}
-{"id": "B181", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "表格列数过多", "grice": "量", "detect": "^\\|.*\\|.*\\|.*\\|.*\\|.*\\|.*\\|"}
-{"id": "B182", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "无引导表格", "grice": "方式", "detect": "^Q\\d+:\\s*\\n\\s*\\|"}
-{"id": "B183", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "嵌套三层以上", "grice": "方式", "detect": "^\\s{8,}[-*]"}
-{"id": "B184", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "粗体标签列表连续", "grice": "方式", "detect": "(\\*\\*[^*]+\\*\\*[：:].*\\n){4,}"}
-{"id": "B185", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "段落一句一换行", "grice": "方式", "detect": "(^[^。\\n]{1,25}。\\n){5,}"}
-{"id": "B186", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "代码块代替说明", "grice": "量", "detect": "```[\\s\\S]{200,}```"}
-{"id": "B187", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "引用块装饰", "grice": "方式", "detect": "^>\\s"}
-{"id": "B188", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "分割线分隔每节", "grice": "方式", "detect": "^---\\s*$[\\s\\S]{0,80}^---\\s*$"}
-{"id": "B189", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "斜体强调滥用", "grice": "方式", "detect": "((?<!\\*)\\*[^*\\n]+\\*(?!\\*)[^\\n]{0,30}){4,}"}
-{"id": "B190", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "链接堆砌", "grice": "量", "detect": "(\\[[^\\]]+\\]\\([^)]+\\)\\s*){4,}"}
-{"id": "B191", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "emoji 标题装饰", "grice": "方式", "detect": "^#{1,6}\\s*[\\U0001F300-\\U0001FAFF]"}
-{"id": "B192", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "表格后无结论", "grice": "方式", "detect": "\\|[^\\n]*\\n\\s*$"}
-{"id": "B193", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "列表后无收束", "grice": "方式", "detect": "^[-*].*\\n(?!\\s*[-*\\n])"}
-{"id": "B194", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "小节之间无过渡", "grice": "方式", "detect": "^#{4,5}[^\\n]*\\n\\n#{4,5}"}
-{"id": "B195", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "标题即段落", "grice": "方式", "detect": "^#{4,5}[^\\n]*\\n\\n[^\\n]{0,10}$"}
-{"id": "B196", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "谄媚开场", "grice": "关系", "detect": "^(好问题|问得好|很高兴|感谢提问)"}
-{"id": "B197", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "附和式应答", "grice": "关系", "detect": "^(当然|确实|没错|Absolutely|Exactly)"}
-{"id": "B198", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "情绪安抚", "grice": "关系", "detect": "理解你的|别担心|不用着急|放心"}
-{"id": "B199", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "自我贬低", "grice": "方式", "detect": "我只是|我不太|能力有限|不太确定"}
-{"id": "B200", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "道歉套话", "grice": "关系", "detect": "^(抱歉|对不起|很遗憾)"}
-{"id": "B201", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "求助式结尾", "grice": "关系", "detect": "(还有|如果)(需要|想)[^。]{0,10}(告诉|说|问)"}
-{"id": "B202", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "询问式收尾", "grice": "关系", "detect": "(要不要|需要我)[^。]{0,20}？$"}
-{"id": "B203", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "过度承诺服务", "grice": "质", "detect": "(随时|尽快|立刻)[^。]{0,10}(为|帮)"}
-{"id": "B204", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "免责声明", "grice": "关系", "detect": "仅供参考|风险自负|据此操作"}
-{"id": "B205", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "价值判断模糊", "grice": "质", "detect": "因人而异|看情况|视情况而定"}
-{"id": "B206", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "回避正面", "grice": "关系", "detect": "这个问题(很|比较)复杂|难以一概而论"}
-{"id": "B207", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "万能建议", "grice": "关系", "detect": "建议(咨询|寻求)[^。]{0,10}(专业|医生|律师)"}
-{"id": "B208", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "情绪化强调", "grice": "方式", "detect": "非常重要|极其重要|千万要"}
-{"id": "B209", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "命令式建议", "grice": "方式", "detect": "必须(要)?[^。]{0,10}!|一定要"}
-{"id": "B210", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "过度共情", "grice": "关系", "detect": "这种感觉|深有同感|换作是谁"}
+{"id": "B001", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 delve 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bdelve\\b"}
+{"id": "B002", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 tapestry 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\btapestry\\b"}
+{"id": "B003", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 landscape 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\blandscape\\b"}
+{"id": "B004", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 nuanced 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bnuanced\\b"}
+{"id": "B005", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 multifaceted 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bmultifaceted\\b"}
+{"id": "B006", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 pivotal 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bpivotal\\b"}
+{"id": "B007", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 crucial 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bcrucial\\b"}
+{"id": "B008", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 foster 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bfoster\\b"}
+{"id": "B009", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 leverage 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bleverage\\b"}
+{"id": "B010", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 streamline 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bstreamline\\b"}
+{"id": "B011", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 paradigm 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bparadigm\\b"}
+{"id": "B012", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 holistic 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bholistic\\b"}
+{"id": "B013", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 robust 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\brobust\\b"}
+{"id": "B014", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 comprehensive 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bcomprehensive\\b"}
+{"id": "B015", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 seamless 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bseamless\\b"}
+{"id": "B016", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 revolutionize 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\brevolutionize\\b"}
+{"id": "B017", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 cutting-edge 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bcutting-edge\\b"}
+{"id": "B018", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 game-changer 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bgame-changer\\b"}
+{"id": "B019", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 empower 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bempower\\b"}
+{"id": "B020", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 elevate 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\belevate\\b"}
+{"id": "B021", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 resonate 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bresonate\\b"}
+{"id": "B022", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 moreover 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bmoreover\\b"}
+{"id": "B023", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 furthermore 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bfurthermore\\b"}
+{"id": "B024", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 nevertheless 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bnevertheless\\b"}
+{"id": "B025", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 harnessing 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bharnessing\\b"}
+{"id": "B026", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 underscore 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bunderscore\\b"}
+{"id": "B027", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 realm 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\brealm\\b"}
+{"id": "B028", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 myriad 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bmyriad\\b"}
+{"id": "B029", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 intricate 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bintricate\\b"}
+{"id": "B030", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 captivating 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bcaptivating\\b"}
+{"id": "B031", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 testament 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\btestament\\b"}
+{"id": "B032", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 embark 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bembark\\b"}
+{"id": "B033", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 bespoke 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bbespoke\\b"}
+{"id": "B034", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 unwavering 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bunwavering\\b"}
+{"id": "B035", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 utilize 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\butilize\\b"}
+{"id": "B036", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 showcase 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bshowcase\\b"}
+{"id": "B037", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 bolster 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bbolster\\b"}
+{"id": "B038", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 cultivate 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bcultivate\\b"}
+{"id": "B039", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 enhance 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\benhance\\b"}
+{"id": "B040", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 navigate 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bnavigate\\b"}
+{"id": "B041", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 interplay 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\binterplay\\b"}
+{"id": "B042", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 synergy 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bsynergy\\b"}
+{"id": "B043", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 meticulous 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bmeticulous\\b"}
+{"id": "B044", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 vibrant 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bvibrant\\b"}
+{"id": "B045", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 valuable 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bvaluable\\b"}
+{"id": "B046", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 significant 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bsignificant\\b"}
+{"id": "B047", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 garner 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bgarner\\b"}
+{"id": "B048", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 boast 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bboast\\b"}
+{"id": "B049", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 in order to 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bin order to\\b"}
+{"id": "B050", "category": "英文高频词", "trigger": "用英文撰写一段产品说明", "bad": "使用 the fact that 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "", "detect": "\\bthe fact that\\b"}
+{"id": "B051", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 In today's fast-paced world 一类套话", "grice": "方式", "source": "text-patterns", "detect": "In today's fast-paced world"}
+{"id": "B052", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 In the ever-evolving landscape 一类套话", "grice": "方式", "source": "text-patterns", "detect": "In the ever-evolving landscape"}
+{"id": "B053", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 In today's digital age 一类套话", "grice": "方式", "source": "text-patterns", "detect": "In today's digital age"}
+{"id": "B054", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 It's important to note that 一类套话", "grice": "方式", "source": "text-patterns", "detect": "It's important to note that"}
+{"id": "B055", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 It's worth noting that 一类套话", "grice": "方式", "source": "text-patterns", "detect": "It's worth noting that"}
+{"id": "B056", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Here's why 一类套话", "grice": "方式", "source": "text-patterns", "detect": "Here's why"}
+{"id": "B057", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Let's dive in 一类套话", "grice": "方式", "source": "text-patterns", "detect": "Let's dive in"}
+{"id": "B058", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Let's explore 一类套话", "grice": "方式", "source": "text-patterns", "detect": "Let's explore"}
+{"id": "B059", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 At its core 一类套话", "grice": "方式", "source": "text-patterns", "detect": "At its core"}
+{"id": "B060", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 In essence 一类套话", "grice": "方式", "source": "text-patterns", "detect": "In essence"}
+{"id": "B061", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 As we navigate the complexities 一类套话", "grice": "方式", "source": "text-patterns", "detect": "As we navigate the complexities"}
+{"id": "B062", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 A testament to 一类套话", "grice": "方式", "source": "text-patterns", "detect": "A testament to"}
+{"id": "B063", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 The power of 一类套话", "grice": "方式", "source": "text-patterns", "detect": "The power of"}
+{"id": "B064", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Stands as a beacon of 一类套话", "grice": "方式", "source": "text-patterns", "detect": "Stands as a beacon of"}
+{"id": "B065", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 In an era where 一类套话", "grice": "方式", "source": "text-patterns", "detect": "In an era where"}
+{"id": "B066", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Serves as a cornerstone 一类套话", "grice": "方式", "source": "text-patterns", "detect": "Serves as a cornerstone"}
+{"id": "B067", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Additionally,  一类套话", "grice": "方式", "source": "text-patterns", "detect": "Additionally,"}
+{"id": "B068", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Moreover,  一类套话", "grice": "方式", "source": "text-patterns", "detect": "Moreover,"}
+{"id": "B069", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Furthermore,  一类套话", "grice": "方式", "source": "text-patterns", "detect": "Furthermore,"}
+{"id": "B070", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 That being said 一类套话", "grice": "方式", "source": "text-patterns", "detect": "That being said"}
+{"id": "B071", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 In conclusion 一类套话", "grice": "量", "source": "text-patterns", "detect": "In conclusion"}
+{"id": "B072", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 In summary 一类套话", "grice": "量", "source": "text-patterns", "detect": "In summary"}
+{"id": "B073", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Overall,  一类套话", "grice": "方式", "source": "text-patterns", "detect": "Overall,"}
+{"id": "B074", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 To sum up 一类套话", "grice": "方式", "source": "text-patterns", "detect": "To sum up"}
+{"id": "B075", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 At the end of the day 一类套话", "grice": "方式", "source": "text-patterns", "detect": "At the end of the day"}
+{"id": "B076", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 It could be argued that 一类套话", "grice": "方式", "source": "text-patterns", "detect": "It could be argued that"}
+{"id": "B077", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 It seems that 一类套话", "grice": "方式", "source": "text-patterns", "detect": "It seems that"}
+{"id": "B078", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 One could argue 一类套话", "grice": "方式", "source": "text-patterns", "detect": "One could argue"}
+{"id": "B079", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Some might say 一类套话", "grice": "方式", "source": "text-patterns", "detect": "Some might say"}
+{"id": "B080", "category": "英文套话", "trigger": "用英文介绍一个概念", "bad": "使用 Generally speaking 一类套话", "grice": "方式", "source": "text-patterns", "detect": "Generally speaking"}
+{"id": "B081", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「赋能」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "赋能"}
+{"id": "B082", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「抓手」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "抓手"}
+{"id": "B083", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「闭环」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "闭环"}
+{"id": "B084", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「底层逻辑」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "底层逻辑"}
+{"id": "B085", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「生态位」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "生态位"}
+{"id": "B086", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「范式转移」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "范式转移"}
+{"id": "B087", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「里程碑」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "里程碑"}
+{"id": "B088", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「全方位」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "全方位"}
+{"id": "B089", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「多维度」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "多维度"}
+{"id": "B090", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「在当今」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "在当今"}
+{"id": "B091", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「随着时代的发展」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "随着时代的发展"}
+{"id": "B092", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「未来可期」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "未来可期"}
+{"id": "B093", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「前途无量」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "前途无量"}
+{"id": "B094", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「充满希望」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "充满希望"}
+{"id": "B095", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「值得注意的是」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "值得注意的是"}
+{"id": "B096", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「由此可见」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "由此可见"}
+{"id": "B097", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「不难看出」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "不难看出"}
+{"id": "B098", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「综上所述」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "综上所述"}
+{"id": "B099", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「总而言之」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "总而言之"}
+{"id": "B100", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「总之」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "总之"}
+{"id": "B101", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「首先」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "首先"}
+{"id": "B102", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「其次」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "其次"}
+{"id": "B103", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「最后，」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "最后，"}
+{"id": "B104", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「与此同时」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "与此同时"}
+{"id": "B105", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「于是乎」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "于是乎"}
+{"id": "B106", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「从而」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "从而"}
+{"id": "B107", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「因而」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "因而"}
+{"id": "B108", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「诚然」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "诚然"}
+{"id": "B109", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「不仅要」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "不仅要"}
+{"id": "B110", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「更是」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "更是"}
+{"id": "B111", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「正确的废话」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "正确的废话"}
+{"id": "B112", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「既要」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "既要"}
+{"id": "B113", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「有意义」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "有意义"}
+{"id": "B114", "category": "中文套话", "trigger": "用中文介绍一个主题", "bad": "使用「价值升华」", "grice": "方式", "source": "humanizer-guide", "example": "", "detect": "价值升华"}
+{"id": "B115", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Not X, but Y（否定对偶）", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "It's not bold. It's backwards.", "detect": "不是[^，。]{1,15}，?而是|not [^.]{1,20}, but"}
+{"id": "B116", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Not just X, but Y", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "Not just a tool, but a movement.", "detect": "不仅[^，。]{1,15}，?更是|not just [^.]{1,20}, but"}
+{"id": "B117", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Not X. Not Y. Just Z.", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "Not ten. Not fifty. Five hundred.", "detect": "不是[^。]{1,10}。不是[^。]{1,10}。"}
+{"id": "B118", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "自问自答（The X? A Y.）", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "The result? Devastating.", "detect": "[^。？\\n]{2,12}？\\s*(答案|它|这|真相)[^。]{0,15}。"}
+{"id": "B119", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Anaphora 重复开头", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "(^|\\n)([^。\\n]{2,10})[^。\\n]*。(?:\\2)"}
+{"id": "B120", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Tricolon 三连排比", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "更快、更稳、更智能。", "detect": "([^，。、]{1,8})、([^，。、]{1,8})、([^，。、]{1,8})"}
+{"id": "B121", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Em dash 插入语", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "问题——没人提的那部分——是结构性的。", "detect": "——[^—]{2,30}——"}
+{"id": "B122", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "短句堆叠（一句一段）", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "他发表了。公开地。在书里。", "detect": "^.{1,12}。\\n.{1,12}。\\n.{1,12}。$"}
+{"id": "B123", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Gerund fragments", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "修小 bug。写简单功能。处理明确的工单。", "detect": "(^|\\n)([^。\\n]{1,10}[。，]){3,}"}
+{"id": "B124", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Listicle in trench coat", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "第一，……第二，……第三，……", "detect": "第一[，、].{0,40}第二[，、]"}
+{"id": "B125", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Here's the kicker", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "Here's the kicker: nobody saw it coming.", "detect": "Here's the (kicker|thing|deal)|精彩的是"}
+{"id": "B126", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Think of it as", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "Think of it as a highway system for data.", "detect": "可以把它想象成|相当于一个|Think of it as"}
+{"id": "B127", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Imagine a world", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "Imagine a world where every tool has a quiet intelligence.", "detect": "想象一下|Imagine a world"}
+{"id": "B128", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "False vulnerability", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "说实话，我并不完美。", "detect": "坦白说|说实话|说出来可能不信|And yes"}
+{"id": "B129", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "The truth is simple", "grice": "质", "source": "tropes / text-patterns / platforms", "example": "真相很简单。", "detect": "真相是|事实很简单|答案很明显"}
+{"id": "B130", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "意义膨胀", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "这次会面意义深远。", "detect": "意义深远|前所未有|里程碑式|历史性"}
+{"id": "B131", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "空洞升华", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "让我们携手开启新篇章。", "detect": "让我们共同|携手|开启新篇章|迈向未来"}
+{"id": "B132", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "绝对化断言", "grice": "质", "source": "tropes / text-patterns / platforms", "example": "这一方案必然成功。", "detect": "必然|一定会|毫无疑问|显然|毋庸置疑"}
+{"id": "B133", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "模糊归因", "grice": "质", "source": "tropes / text-patterns / platforms", "example": "专家认为这是最佳方案。", "detect": "专家认为|研究表明|业内普遍认为|数据显示|据统计"}
+{"id": "B134", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "无来源数字", "grice": "质", "source": "tropes / text-patterns / platforms", "example": "市场规模将达到 370 亿美元。", "detect": "(增长|下降|市场|规模|营收|利润|占比|渗透率)[^。]{0,12}\\d+(\\.\\d+)?\\s*(%|亿|万|倍|美元)"}
+{"id": "B135", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "防御式免责", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "以上内容仅供参考。", "detect": "仅供参考|不构成建议|建议咨询专业人士|因人而异|具体情况具体分析"}
+{"id": "B136", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "假谦虚", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "个人浅见，说得不一定对。", "detect": "不是专家|个人浅见|说得不一定对|能力有限"}
+{"id": "B137", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "元评论", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "本文将介绍三个要点。", "detect": "本文将|下面介绍|接下来讨论|需要说明的是|值得一提的是"}
+{"id": "B138", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "重复问题", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "你问的是如何提高效率。", "detect": "你问的是|关于你的问题|就你提到的"}
+{"id": "B139", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "恭维开场", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "好问题！", "detect": "好问题|问得好|这个想法很好|Great question"}
+{"id": "B140", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "过度 hedging", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "这可能会也可能不会有效。", "detect": "(可能|也许|或许|大概|似乎).{0,20}(可能|也许|或许|大概|似乎)"}
+{"id": "B141", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "通用结论", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "总而言之，前景广阔。", "detect": "总而言之|总的来说|综上所述|未来可期|前途无量"}
+{"id": "B142", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "每段小结", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "本节小结：……", "detect": "(综上|总之)[^\\n]{0,20}\\n"}
+{"id": "B143", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "三段式结构", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "首先……其次……最后……", "detect": "首先[^\\n]{0,60}\\n[^\\n]{0,80}\\n其次"}
+{"id": "B144", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "模板段落", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "首先……其次……最后……", "detect": "首先[^\\n]{0,40}。其次[^\\n]{0,40}。最后"}
+{"id": "B145", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "挑战转折公式", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "尽管存在挑战，但前景依然乐观。", "detect": "尽管[^，。]{1,20}，但[^，。]{1,20}。|Despite its"}
+{"id": "B146", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Copula avoidance", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "该建筑充当城市遗产的见证。", "detect": "充当[^，。]{0,8}|serves as|stands as"}
+{"id": "B147", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Participle tail", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "系统自动同步，从而提升效率。", "detect": "，(从而|进而|使得|确保了|体现了|彰显了)[^。]{0,20}。"}
+{"id": "B148", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "Vague connection", "grice": "质", "source": "tropes / text-patterns / platforms", "example": "该指标与增长密切相关。", "detect": "与[^，。]{1,10}相关联|与[^，。]{1,10}密切相关"}
+{"id": "B149", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Elegant variation", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "该工具……该系统……该平台……", "detect": "该(工具|系统|平台|方案).{0,20}该(工具|系统|平台|方案)"}
+{"id": "B150", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Bold-first bullets", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "- **安全**：基于环境的配置。", "detect": "^\\s*[-*]\\s*\\*\\*[^*]+\\*\\*[：:]"}
+{"id": "B151", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Emoji 装饰", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "🚀 快速上手", "detect": "[\\U0001F300-\\U0001FAFF✅🚀💡👉]"}
+{"id": "B152", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "Unicode 箭头", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "输入 → 处理 → 输出", "detect": "→|⇒"}
+{"id": "B153", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "标题层级过深", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "##### 小节标题", "detect": "^#{5,6}\\s"}
+{"id": "B154", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "标题紧接标题", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "## 标题\n### 子标题", "detect": "^#{2,6}[^\\n]*\\n\\s*#{2,6}"}
+{"id": "B155", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "表格代替叙述", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "| 项目 | 值 |", "detect": "^\\|.*\\|$"}
+{"id": "B156", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "分隔线滥用", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "---", "detect": "^---$"}
+{"id": "B157", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "粗体滥用", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "**重点**……**关键**……**核心**……", "detect": "(\\*\\*[^*]+\\*\\*[^\\n]{0,40}){4,}"}
+{"id": "B158", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "代码块装饰", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "```", "detect": "```"}
+{"id": "B159", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "复选框列表", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "- [ ] 待办", "detect": "^\\s*[-*]\\s*\\[[ x]\\]"}
+{"id": "B160", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "嵌套列表过深", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "      - 子项", "detect": "^\\s{6,}[-*]"}
+{"id": "B161", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "一句一段", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "很快。", "detect": "^[^。\\n]{1,20}。$"}
+{"id": "B162", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "段落等长", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "（连续等长段落）", "detect": "^[^\\n]{40,80}$"}
+{"id": "B163", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "结构预告", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "本文分三个方面说明。", "detect": "(本文|下面|接下来)[^，。]{0,10}(分|从|为)[^，。]{0,10}(三|四|几)个"}
+{"id": "B164", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "结尾重申", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "以上已经说明。", "detect": "(前面|以上)[^。]{0,20}(已经|都)[^。]{0,10}(说明|提到)"}
+{"id": "B165", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "通行话转场", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "说到这里，", "detect": "说到这里|话又说回来|不得不说"}
+{"id": "B166", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "套话问候", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "希望这些对你有帮助。", "detect": "希望(这些|上述|以上)[^。]{0,10}(对|有)[^。]{0,10}(帮助|用)"}
+{"id": "B167", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "客户端口吻", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "如需帮助，欢迎随时联系。", "detect": "如需|欢迎(随时)?(联系|告知)|我会(继续|随时)"}
+{"id": "B168", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "过度承诺", "grice": "质", "source": "tropes / text-patterns / platforms", "example": "一定能解决。", "detect": "(?<!不)保证(能|会)|一定(能|会)|包(你|您)满意"}
+{"id": "B169", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "伪精确", "grice": "质", "source": "tropes / text-patterns / platforms", "example": "高达 99%。", "detect": "精确到|高达\\s*\\d+|超过\\s*\\d+%"}
+{"id": "B170", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "空泛结论", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "总的来说，这很重要。", "detect": "总的来说[^。]{0,30}(重要|关键|必要)"}
+{"id": "B171", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "正确的废话", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "既要效率，又要质量。", "detect": "既要[^。]{1,20}又要[^。]{1,20}"}
+{"id": "B172", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "同义反复", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "这个问题的问题在于。", "detect": "([^，。]{2,6})[^。]{0,10}\\1"}
+{"id": "B173", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "形容词堆砌", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "高效、稳定、可靠、安全的方案。", "detect": "([^，。]{1,6}的){4,}"}
+{"id": "B174", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "滥用类比", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "就像高速公路一样。", "detect": "就像[^。]{1,20}一样|好比"}
+{"id": "B175", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "泛化概括", "grice": "质", "source": "tropes / text-patterns / platforms", "example": "大多数人都这样认为。", "detect": "大多数|几乎所有|普遍认为"}
+{"id": "B176", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "标题层级超过两级", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "^#{1,3}\\s"}
+{"id": "B177", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "小节数量过多", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "", "detect": "(^#{4,5}\\s.*\\n){6,}"}
+{"id": "B178", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "每节末尾小结", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "", "detect": "(本节|这一节)[^。]{0,10}(小结|总结)"}
+{"id": "B179", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "全文结尾总结", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "", "detect": "^(综上|总之|总的来说)"}
+{"id": "B180", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "列表条目凑数", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "", "detect": "^\\s*\\d+[.、]\\s*.{1,10}$"}
+{"id": "B181", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "表格列数过多", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "", "detect": "^\\|.*\\|.*\\|.*\\|.*\\|.*\\|.*\\|"}
+{"id": "B182", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "无引导表格", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "^Q\\d+:\\s*\\n\\s*\\|"}
+{"id": "B183", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "嵌套三层以上", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "^\\s{8,}[-*]"}
+{"id": "B184", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "粗体标签列表连续", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "(\\*\\*[^*]+\\*\\*[：:].*\\n){4,}"}
+{"id": "B185", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "段落一句一换行", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "(^[^。\\n]{1,25}。\\n){5,}"}
+{"id": "B186", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "代码块代替说明", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "", "detect": "```[\\s\\S]{200,}```"}
+{"id": "B187", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "引用块装饰", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "^>\\s"}
+{"id": "B188", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "分割线分隔每节", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "^---\\s*$[\\s\\S]{0,80}^---\\s*$"}
+{"id": "B189", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "斜体强调滥用", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "((?<!\\*)\\*[^*\\n]+\\*(?!\\*)[^\\n]{0,30}){4,}"}
+{"id": "B190", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "链接堆砌", "grice": "量", "source": "tropes / text-patterns / platforms", "example": "", "detect": "(\\[[^\\]]+\\]\\([^)]+\\)\\s*){4,}"}
+{"id": "B191", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "emoji 标题装饰", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "^#{1,6}\\s*[\\U0001F300-\\U0001FAFF]"}
+{"id": "B192", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "表格后无结论", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "\\|[^\\n]*\\n\\s*$"}
+{"id": "B193", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "列表后无收束", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "^[-*].*\\n(?!\\s*[-*\\n])"}
+{"id": "B194", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "小节之间无过渡", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "^#{4,5}[^\\n]*\\n\\n#{4,5}"}
+{"id": "B195", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "标题即段落", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "^#{4,5}[^\\n]*\\n\\n[^\\n]{0,10}$"}
+{"id": "B196", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "谄媚开场", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "", "detect": "^(好问题|问得好|很高兴|感谢提问)"}
+{"id": "B197", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "附和式应答", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "", "detect": "^(当然|确实|没错|Absolutely|Exactly)"}
+{"id": "B198", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "情绪安抚", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "", "detect": "理解你的|别担心|不用着急|放心"}
+{"id": "B199", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "自我贬低", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "我只是|我不太|能力有限|不太确定"}
+{"id": "B200", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "道歉套话", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "抱歉，上一轮拖太久了。", "detect": "^(抱歉|对不起|很遗憾)"}
+{"id": "B201", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "求助式结尾", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "", "detect": "(还有|如果)(需要|想)[^。]{0,10}(告诉|说|问)"}
+{"id": "B202", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "询问式收尾", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "", "detect": "(要不要|需要我)[^。]{0,20}？$"}
+{"id": "B203", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "过度承诺服务", "grice": "质", "source": "tropes / text-patterns / platforms", "example": "", "detect": "(随时|尽快|立刻)[^。]{0,10}(为|帮)"}
+{"id": "B204", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "免责声明", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "以上内容仅供参考。", "detect": "仅供参考|风险自负|据此操作"}
+{"id": "B205", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "价值判断模糊", "grice": "质", "source": "tropes / text-patterns / platforms", "example": "", "detect": "因人而异|看情况|视情况而定"}
+{"id": "B206", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "回避正面", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "", "detect": "这个问题(很|比较)复杂|难以一概而论"}
+{"id": "B207", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "万能建议", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "", "detect": "建议(咨询|寻求)[^。]{0,10}(专业|医生|律师)"}
+{"id": "B208", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "情绪化强调", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "非常重要|极其重要|千万要"}
+{"id": "B209", "category": "句式与结构", "trigger": "回答一个通用问题", "bad": "命令式建议", "grice": "方式", "source": "tropes / text-patterns / platforms", "example": "", "detect": "必须(要)?[^。]{0,10}!|一定要"}
+{"id": "B210", "category": "语气与防御", "trigger": "回答一个通用问题", "bad": "过度共情", "grice": "关系", "source": "tropes / text-patterns / platforms", "example": "", "detect": "这种感觉|深有同感|换作是谁"}

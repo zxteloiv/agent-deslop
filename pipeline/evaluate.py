@@ -32,9 +32,13 @@ def api_key() -> str:
     return match.group(1)
 
 
-def load_questions() -> list[str]:
+def load_questions(path: str) -> list[str]:
+    target = Path(path)
+    if target.suffix == ".jsonl":
+        rows = [json.loads(line) for line in target.read_text(encoding="utf-8").splitlines() if line.strip()]
+        return [row["prompt"] for row in rows]
     items = []
-    for line in QUESTIONS.read_text(encoding="utf-8").splitlines():
+    for line in target.read_text(encoding="utf-8").splitlines():
         match = re.match(r"^\s*\d+\.\s*(.+)$", line)
         if match:
             items.append(match.group(1).strip())
@@ -72,7 +76,7 @@ def main() -> None:
     env["DSH_HOME"] = str(HOME)
     env["DEEPSEEK_API_KEY"] = api_key()
 
-    questions = load_questions()
+    questions = load_questions(args.questions)
     if args.limit:
         questions = questions[: args.limit]
 

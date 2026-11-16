@@ -66,7 +66,6 @@ R(agent.md) = Σ_{x, y ∈ B}  1[ LLM(x; agent.md) ≠ y ] · GriceanCriterion( 
 ```sh
 python3 pipeline/evaluate.py --rules rules/AGENTS-v0.md --label v0
 python3 pipeline/scan_badcases.py outputs/eval/v0.jsonl
-python3 pipeline/regression.py outputs/eval/v0.jsonl
 python3 pipeline/judge.py outputs/eval/v0.jsonl
 ```
 
@@ -85,7 +84,7 @@ python3 pipeline/judge.py outputs/eval/v0.jsonl
 | 路径 | 内容 |
 |---|---|
 | `rules/AGENTS-v0.md` | 迭代起点 θ0 的规则全文 |
-| `data/cases-regression.md` | 用户反馈回归用例 |
+| `data/cases-raw.md` | 用户反馈的原始错误记录 |
 | `data/badcases-v3.jsonl` | 网络负例测试集，210 条 |
 | `pipeline/` | 生成、评测、预筛、回归、评审五类脚本 |
 | `outputs/eval/` | 受控评测产物 |
@@ -114,7 +113,6 @@ python3 pipeline/judge.py outputs/eval/v0.jsonl
 python3 pipeline/build_badcases.py
 python3 pipeline/evaluate.py --rules rules/AGENTS-v0.md --label v0
 python3 pipeline/scan_badcases.py outputs/eval/v0.jsonl
-python3 pipeline/regression.py outputs/eval/v0.jsonl
 python3 pipeline/judge.py outputs/eval/v0.jsonl
 ```
 

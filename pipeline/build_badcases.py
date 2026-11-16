@@ -6,6 +6,71 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 
+EXAMPLES = {
+    "Not X, but Y（否定对偶）": "It's not bold. It's backwards.",
+    "Not just X, but Y": "Not just a tool, but a movement.",
+    "Not X. Not Y. Just Z.": "Not ten. Not fifty. Five hundred.",
+    "自问自答（The X? A Y.）": "The result? Devastating.",
+    "Tricolon 三连排比": "更快、更稳、更智能。",
+    "Em dash 插入语": "问题——没人提的那部分——是结构性的。",
+    "短句堆叠（一句一段）": "他发表了。公开地。在书里。",
+    "Gerund fragments": "修小 bug。写简单功能。处理明确的工单。",
+    "Listicle in trench coat": "第一，……第二，……第三，……",
+    "Here's the kicker": "Here's the kicker: nobody saw it coming.",
+    "Think of it as": "Think of it as a highway system for data.",
+    "Imagine a world": "Imagine a world where every tool has a quiet intelligence.",
+    "False vulnerability": "说实话，我并不完美。",
+    "The truth is simple": "真相很简单。",
+    "意义膨胀": "这次会面意义深远。",
+    "空洞升华": "让我们携手开启新篇章。",
+    "绝对化断言": "这一方案必然成功。",
+    "模糊归因": "专家认为这是最佳方案。",
+    "无来源数字": "市场规模将达到 370 亿美元。",
+    "防御式免责": "以上内容仅供参考。",
+    "假谦虚": "个人浅见，说得不一定对。",
+    "元评论": "本文将介绍三个要点。",
+    "重复问题": "你问的是如何提高效率。",
+    "恭维开场": "好问题！",
+    "过度 hedging": "这可能会也可能不会有效。",
+    "通用结论": "总而言之，前景广阔。",
+    "每段小结": "本节小结：……",
+    "三段式结构": "首先……其次……最后……",
+    "模板段落": "首先……其次……最后……",
+    "挑战转折公式": "尽管存在挑战，但前景依然乐观。",
+    "Copula avoidance": "该建筑充当城市遗产的见证。",
+    "Participle tail": "系统自动同步，从而提升效率。",
+    "Vague connection": "该指标与增长密切相关。",
+    "Elegant variation": "该工具……该系统……该平台……",
+    "Bold-first bullets": "- **安全**：基于环境的配置。",
+    "Emoji 装饰": "🚀 快速上手",
+    "Unicode 箭头": "输入 → 处理 → 输出",
+    "标题层级过深": "##### 小节标题",
+    "标题紧接标题": "## 标题\n### 子标题",
+    "表格代替叙述": "| 项目 | 值 |",
+    "分隔线滥用": "---",
+    "粗体滥用": "**重点**……**关键**……**核心**……",
+    "代码块装饰": "```",
+    "复选框列表": "- [ ] 待办",
+    "嵌套列表过深": "      - 子项",
+    "一句一段": "很快。",
+    "段落等长": "（连续等长段落）",
+    "结构预告": "本文分三个方面说明。",
+    "结尾重申": "以上已经说明。",
+    "通行话转场": "说到这里，",
+    "套话问候": "希望这些对你有帮助。",
+    "客户端口吻": "如需帮助，欢迎随时联系。",
+    "过度承诺": "一定能解决。",
+    "伪精确": "高达 99%。",
+    "空泛结论": "总的来说，这很重要。",
+    "正确的废话": "既要效率，又要质量。",
+    "同义反复": "这个问题的问题在于。",
+    "形容词堆砌": "高效、稳定、可靠、安全的方案。",
+    "滥用类比": "就像高速公路一样。",
+    "泛化概括": "大多数人都这样认为。",
+    "道歉套话": "抱歉，上一轮拖太久了。",
+    "免责声明": "以上内容仅供参考。",
+}
+
 EN_WORDS = [
     "delve", "tapestry", "landscape", "nuanced", "multifaceted", "pivotal",
     "crucial", "foster", "leverage", "streamline", "paradigm", "holistic",
@@ -34,7 +99,7 @@ CN_WORDS = [
     "赋能", "抓手", "闭环", "底层逻辑", "生态位", "范式转移", "里程碑", "全方位",
     "多维度", "在当今", "随着时代的发展", "未来可期", "前途无量", "充满希望",
     "值得注意的是", "由此可见", "不难看出", "综上所述", "总而言之", "总之",
-    "首先", "其次", "最后", "与此同时", "于是乎", "从而", "因而", "诚然",
+    "首先", "其次", "最后，", "与此同时", "于是乎", "从而", "因而", "诚然",
     "不仅要", "更是", "正确的废话", "既要", "有意义", "价值升华",
 ]
 
@@ -149,25 +214,25 @@ def build():
     for index, word in enumerate(EN_WORDS, start=1):
         rows.append({
             "id": f"B{len(rows) + 1:03d}", "category": "英文高频词", "trigger": "用英文撰写一段产品说明",
-            "bad": f"使用 {word} 一类 AI 高频词", "grice": "方式",
+            "bad": f"使用 {word} 一类 AI 高频词", "grice": "方式", "source": "slop-vocabulary / ai-writing-signs", "example": "",
             "detect": rf"\b{word}\b",
         })
     for phrase in EN_PHRASES:
         rows.append({
             "id": f"B{len(rows) + 1:03d}", "category": "英文套话", "trigger": "用英文介绍一个概念",
-            "bad": f"使用 {phrase} 一类套话", "grice": "量" if "conclusion" in phrase or "summary" in phrase else "方式",
+            "bad": f"使用 {phrase} 一类套话", "grice": "量" if "conclusion" in phrase or "summary" in phrase else "方式", "source": "text-patterns",
             "detect": rf"{phrase.strip()}",
         })
     for word in CN_WORDS:
         rows.append({
             "id": f"B{len(rows) + 1:03d}", "category": "中文套话", "trigger": "用中文介绍一个主题",
-            "bad": f"使用「{word}」", "grice": "方式",
+            "bad": f"使用「{word}」", "grice": "方式", "source": "humanizer-guide", "example": "",
             "detect": word,
         })
     for name, pattern, grice in PATTERNS + STRUCTURE + TONE:
         rows.append({
             "id": f"B{len(rows) + 1:03d}", "category": "句式与结构" if grice == "方式" else "语气与防御",
-            "trigger": "回答一个通用问题", "bad": name, "grice": grice, "detect": pattern,
+            "trigger": "回答一个通用问题", "bad": name, "grice": grice, "source": "tropes / text-patterns / platforms", "example": EXAMPLES.get(name, ""), "detect": pattern,
         })
     return rows
 

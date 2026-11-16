@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+<defs><marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#334"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="40" y="52" font-size="24" font-family="Songti SC, Songti TC, serif" font-weight="700" fill="#111">AgentDeslop 迭代 loop</text>
+<line x1="507.8" y1="212.0" x2="677.5" y2="335.3" stroke="#334" stroke-width="2" marker-end="url(#a)"/>
+<line x1="721.7" y1="419.3" x2="640.0" y2="670.7" stroke="#334" stroke-width="2" marker-end="url(#a)"/>
+<line x1="506.3" y1="712.7" x2="393.7" y2="712.7" stroke="#334" stroke-width="2" marker-end="url(#a)"/>
+<line x1="260.0" y1="670.7" x2="178.3" y2="419.3" stroke="#334" stroke-width="2" marker-end="url(#a)"/>
+<line x1="222.5" y1="335.3" x2="392.2" y2="212.0" stroke="#334" stroke-width="2" marker-end="url(#a)"/>
+<rect x="330.0" y="128.0" width="240" height="84" rx="10" fill="#f5f7fa" stroke="#334" stroke-width="2"/>
+<text x="450.0" y="170.0" font-size="16" text-anchor="middle" dominant-baseline="central" font-family="Songti SC, Songti TC, serif" fill="#111">真实对话 · 网上负例</text>
+<rect x="615.3" y="335.3" width="240" height="84" rx="10" fill="#f5f7fa" stroke="#334" stroke-width="2"/>
+<text x="735.3" y="366.3" font-size="16" text-anchor="middle" dominant-baseline="central" font-family="Songti SC, Songti TC, serif" fill="#111">判据判定</text>
+<text x="735.3" y="388.3" font-size="16" text-anchor="middle" dominant-baseline="central" font-family="Songti SC, Songti TC, serif" fill="#111">四准则 + 四项附加</text>
+<rect x="506.3" y="670.7" width="240" height="84" rx="10" fill="#f5f7fa" stroke="#334" stroke-width="2"/>
+<text x="626.3" y="701.7" font-size="16" text-anchor="middle" dominant-baseline="central" font-family="Songti SC, Songti TC, serif" fill="#111">错误归类</text>
+<text x="626.3" y="723.7" font-size="16" text-anchor="middle" dominant-baseline="central" font-family="Songti SC, Songti TC, serif" fill="#111">错误分布</text>
+<rect x="153.7" y="670.7" width="240" height="84" rx="10" fill="#f5f7fa" stroke="#334" stroke-width="2"/>
+<text x="273.7" y="701.7" font-size="16" text-anchor="middle" dominant-baseline="central" font-family="Songti SC, Songti TC, serif" fill="#111">归纳共性</text>
+<text x="273.7" y="723.7" font-size="16" text-anchor="middle" dominant-baseline="central" font-family="Songti SC, Songti TC, serif" fill="#111">改写 AGENTS.md</text>
+<rect x="44.7" y="335.3" width="240" height="84" rx="10" fill="#f5f7fa" stroke="#334" stroke-width="2"/>
+<text x="164.7" y="366.3" font-size="16" text-anchor="middle" dominant-baseline="central" font-family="Songti SC, Songti TC, serif" fill="#111">受控重放</text>
+<text x="164.7" y="388.3" font-size="16" text-anchor="middle" dominant-baseline="central" font-family="Songti SC, Songti TC, serif" fill="#111">通过率比较</text>
+<text x="450" y="462" font-size="16" text-anchor="middle" dominant-baseline="central" font-family="Songti SC, Songti TC, serif" fill="#334">改 AGENTS.md 一个参数</text>
+<text x="450" y="492" font-size="14" text-anchor="middle" dominant-baseline="central" font-family="Songti SC, Songti TC, serif" fill="#334">通过率上升才保留，否则回退</text>
+</svg>
