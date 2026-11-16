@@ -27,10 +27,17 @@ def scan(text: str) -> list[dict]:
     return hits
 
 
+def load_text(path: Path) -> str:
+    if path.suffix == ".jsonl":
+        rows = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+        return "\n".join(row.get("answer", "") for row in rows)
+    return path.read_text(encoding="utf-8")
+
+
 def main() -> None:
     for arg in sys.argv[1:]:
         path = Path(arg)
-        hits = scan(path.read_text(encoding="utf-8"))
+        hits = scan(load_text(path))
         print(f"## {path.stem}: {len(hits)} 命中")
         for case in hits[:30]:
             print(f"  {case['id']}\t{case['category']}\t{case['bad']}")

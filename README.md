@@ -15,25 +15,28 @@ R(agent.md) = Σ_{x, y ∈ B} 1[ LLM(x; agent.md) ≠ y ] · GriceanCriterion( L
 ## 快速开始
 
 ```sh
-python3 pipeline/build_badcases.py                      # 重建 210 条负例测试集
-python3 pipeline/scan_badcases.py outputs/samples/*.md  # 扫描样本命中
-python3 pipeline/regression.py                          # 执行 21 条回归用例
-python3 pipeline/grice.py outputs/samples/style-2.md    # 按四准则检查
+python3 pipeline/build_badcases.py
+python3 pipeline/evaluate.py --rules rules/AGENTS-v0.md --label v0
+python3 pipeline/scan_badcases.py outputs/eval/v0.jsonl   # 正则预筛
+python3 pipeline/regression.py outputs/eval/v0.jsonl      # 全文类回归用例
+python3 pipeline/judge.py outputs/eval/v0.jsonl           # 生成 Grice 评审任务
 ```
+
+Grice 四准则由语言模型按 `pipeline/judge-prompt.md` 的协议逐条评审，正则检测器只做预筛。
 
 ## 目录
 
 | 路径 | 内容 |
 |---|---|
-| `rules/` | 规则版本，`AGENTS-v0.md` 为迭代起点 θ0，`history/` 保存历史版本 |
-| `data/` | 210 条网络负例、21 条回归用例、采样问题集 |
-| `pipeline/` | 测试集生成、负例扫描、回归执行、Grice 检查四个脚本 |
-| `outputs/` | 采样输出与回归报告 |
-| `docs/` | 方法论与实验记录 |
+| `rules/` | 规则版本，`AGENTS-v0.md` 为迭代起点 θ0 |
+| `data/` | 210 条网络负例、22 条回归用例、采样问题集 |
+| `pipeline/` | 测试集生成、受控评测、正则预筛、回归执行、评审任务生成 |
+| `outputs/eval/` | 受控评测产物与评审输入 |
+| `docs/` | 方法论 |
 
 ## θ0
 
-`rules/AGENTS-v0.md` 是迭代初始值，内容为当前全局 AGENTS.md（v3），84 行。历史版本在 `rules/history/`，记录从 v1 到 v3 的改动：格式条款、否定对偶、抽象大词、免责套话、结构上限。
+`rules/AGENTS-v0.md` 是迭代初始值，内容为当前全局 AGENTS.md，84 行。后续版本在 `rules/` 下按 `AGENTS-v1.md`、`AGENTS-v2.md` 递增，差异由 git 记录。
 
 迭代方法见 [docs/agents-md-optimization.md](docs/agents-md-optimization.md)。
 
@@ -45,13 +48,11 @@ python3 pipeline/grice.py outputs/samples/style-2.md    # 按四准则检查
 
 ## 追加用例
 
-用户指出风格问题时，按 [data/cases-regression.md](data/cases-regression.md) 的格式追加一条，编号顺延，并同步补充 `pipeline/` 中对应检查词表，随后对 `outputs/samples/` 执行一次检查。
+用户指出风格问题时，按 [data/cases-regression.md](data/cases-regression.md) 的格式追加一条，编号顺延，并同步补充 `pipeline/` 中对应检测项，随后对 `outputs/eval/` 执行一次检查。
 
-## 迭代记录
+## 评测记录
 
-v1 调整格式条款，允许表格与小节，限制标题层级；v2 增加否定对偶、抽象大词、时代开场、排比破折、恭维开场与列表数量限制；v3 增加 Copula 替代、句尾补意义、免责套话、结构上限与市场数字来源要求。
-
-历次回放结果见 [outputs/regression-report.md](outputs/regression-report.md)，实验过程见 [docs/experiment-log.md](docs/experiment-log.md)。
+受控评测使用独立 `DSH_HOME`、空工作区与 headless profile，规则唯一来源是 home 下的 AGENTS.md。每次评测记录规则 sha256、问题与答案，写入 `outputs/eval/<label>.jsonl`。判定由正则预筛、全文回归用例与 Grice 模型评审三层组成。
 
 ## License
 

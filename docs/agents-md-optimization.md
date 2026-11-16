@@ -39,7 +39,7 @@ R(agent.md) = Σ_{x, y ∈ B}  1[ LLM(x; agent.md) ≠ y ] · GriceanCriterion( 
 | 关系 | 切题 | 不复述问题、不铺无关背景、不以恭维开场、不反问规格 |
 | 方式 | 简洁有序 | 无套话、无否定对偶、无抽象大词、句式有长短、术语首现解释 |
 
-判定分三层：正则层（词表与结构）、语义层（引用与否定需人工复核）、人工层（是否必要、是否有信息量）。
+判定以语言模型评审为主：按四准则逐条给出通过与失败及原句证据。正则检测器只做高召回预筛，命中项进入复核，未命中项不自动判为通过。评审协议见 `pipeline/judge-prompt.md`。
 
 ## 4. 流程
 
@@ -61,15 +61,16 @@ R(agent.md) = Σ_{x, y ∈ B}  1[ LLM(x; agent.md) ≠ y ] · GriceanCriterion( 
 
 #### 4.4 判定
 
-对样本执行检测器与回归脚本：
+先用检测器预筛，再由语言模型按四准则评审：
 
 ```sh
-python3 experiments/scan_badcases.py experiments/samples/*.md
-python3 experiments/regression.py
-python3 experiments/grice.py experiments/samples/style-1.md
+python3 pipeline/evaluate.py --rules rules/AGENTS-v0.md --label v0
+python3 pipeline/scan_badcases.py outputs/eval/v0.jsonl
+python3 pipeline/regression.py outputs/eval/v0.jsonl
+python3 pipeline/judge.py outputs/eval/v0.jsonl
 ```
 
-判定结果分三列：硬违规、任务达成、副作用。任何一列恶化都不算改进。
+`judge.py` 生成评审任务，评审由模型执行并写入 `outputs/judge-report.md`。判定结果分三列：硬违规、任务达成、副作用。任何一列恶化都不算改进。
 
 #### 4.5 修改
 
@@ -83,14 +84,11 @@ python3 experiments/grice.py experiments/samples/style-1.md
 
 | 路径 | 内容 |
 |---|---|
-| `experiments/versions/AGENTS-v1.md` 等 | 各版本规则全文 |
-| `experiments/cases-regression.md` | 用户反馈回归用例 |
-| `experiments/badcases-v3.jsonl` | 网络负例测试集，210 条 |
-| `experiments/build_badcases.py` | 测试集生成脚本 |
-| `experiments/scan_badcases.py` | 负例扫描器 |
-| `experiments/regression.py` | 回归用例执行器 |
-| `experiments/grice.py` | Grice 四准则检查器 |
-| `experiments/samples/` | 采样输出 |
+| `rules/AGENTS-v0.md` | 迭代起点 θ0 的规则全文 |
+| `data/cases-regression.md` | 用户反馈回归用例 |
+| `data/badcases-v3.jsonl` | 网络负例测试集，210 条 |
+| `pipeline/` | 生成、评测、预筛、回归、评审五类脚本 |
+| `outputs/eval/` | 受控评测产物 |
 
 ## 6. 适配新模型
 
@@ -113,10 +111,11 @@ python3 experiments/grice.py experiments/samples/style-1.md
 ## 8. 复现清单
 
 ```sh
-python3 experiments/build_badcases.py
-python3 experiments/scan_badcases.py experiments/samples/*.md
-python3 experiments/regression.py
-python3 experiments/grice.py experiments/samples/style-2.md
+python3 pipeline/build_badcases.py
+python3 pipeline/evaluate.py --rules rules/AGENTS-v0.md --label v0
+python3 pipeline/scan_badcases.py outputs/eval/v0.jsonl
+python3 pipeline/regression.py outputs/eval/v0.jsonl
+python3 pipeline/judge.py outputs/eval/v0.jsonl
 ```
 
 三个脚本无外部依赖，Python 3 即可运行。测试集与样本以纯文本保存，便于跨模型复用与版本对比。
